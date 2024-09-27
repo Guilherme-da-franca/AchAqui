@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <title>AchAqui Cadastre-se</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../CSS/cadastro-usuario.css'>
+    <script src="../JavaScript/cadastro-usuario.js"></script>
+</head>
+
+<body>
+    <section>
+        <!--<div class = 'foms-image'>
+                    <img src="png/brasilcadas.png.jpg" height="100%" width="100%">-->
+        </div>
+        <div class="form">
+            <form>
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Faça seu cadastro!</h1>
+                    </div>
+                    <div class="input-group">
+                        <div class='input-box'>
+                            <label for='fist-name'>Nome completo*</label>
+                            <input id="nome" type="text" name="firstname" placeholder="Digite seu primeiro nome" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="date">Data de nascimento*</label>
+                            <input id="date" type="date" name="date" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="email">E-mail*</label>
+                            <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="number">CPF*</label>
+                            <input id="cpf" type="text" name="CPF" placeholder="CPF-CNPJ" maxlength="11" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="password">Senha*</label>
+                            <input id="senha" type="password" name="password" placeholder="Digite sua senha" minlength="6" maxlength="8"  required>
+                        </div>
+
+
+                        <div class="input-box">
+                            <label for="confirmPassword">Confirme sua Senha*</label>
+                            <input id="confirme" type="password" name="confirmPassword" placeholder="Digite sua senha novamente" minlength="6" maxlength="8" required>
+                        </div>
+                    </div>
+                    <div class="genero-inputs">
+                        <div class="genero-title">
+                            <h6>Gênero</h6>
+                        </div>
+
+                        <div class="genero-group">
+                            <div class="genero-input">
+                                <input id="female" type="radio" name="genero">
+                                <label for="female">Feminino</label>
+                            </div>
+
+                            <div class="genero-input">
+                                <input id="male" type="radio" name="genero">
+                                <label for="male">Masculino</label>
+                            </div>
+
+                            <div class="genero-input">
+                                <input id="none" type="radio" name="genero">
+                                <label for="none">Prefiro não dizer</label>
+                            </div>
+                        </div><br><br><br>
+                        <div class="Termos">
+                            <input id="termos" type='checkbox' name="termos">
+                            <label for="termos">Eu li e concordo com os termos*</label>
+                        </div>
+                    </div>
+                </div> 
+            </form>
+            <br><br><br>
+            <div class="Cadastrar">
+                <input id="cadastrar" type='button' value="Cadastrar" class="Cadastrar" onclick="cadastrar()"></a><br><br>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; AchAqui</p>
+    </footer>
+
+
+</body>
+
+</html>
